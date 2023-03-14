@@ -1,0 +1,5 @@
+<nav aria-label="Page navigation example" *ngIf="paginas?.length">
+    <ul class="pagination">
+      <li *ngFor="let pag of paginas" class="page-item"><a class="page-link" >{{pag}}</a></li>
+    </ul>
+  </nav>
